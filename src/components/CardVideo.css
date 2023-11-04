@@ -1,0 +1,49 @@
+.card-video {
+    width: 100%;
+    height: 100%;
+}
+
+.card-video__thumbnail {
+    position: relative;
+}
+
+.card-video__img {
+    border-radius: 8px;
+}
+
+.card-video__img-channel {
+    border-radius: 9999px;
+}
+
+.card-video__duration {
+    position: absolute;
+    padding: 4px;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.card-video__body {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 10px;
+}
+
+.card-video__information .card-video__title,
+.card-video__information .card-video__text {
+    margin: 0;
+}
+
+.card-video__title {
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
+.card-video__text {
+    font-size: 14px;
+    color: #AAA;
+}

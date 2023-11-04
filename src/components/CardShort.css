@@ -1,0 +1,15 @@
+.card-short__image {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card-short__title {
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+.card-short__text {
+    font-size: 14px;
+    color: #AAA;
+    margin: 6px 0;
+}

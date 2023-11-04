@@ -1,0 +1,31 @@
+.search {
+    width: 600px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 64px; 
+    border-radius: 9999px;
+}
+
+.search input {
+    background: transparent;
+    outline: none;
+    padding-left: 16px;
+    color: white;
+    border: 1px solid rgb(48, 48, 48);
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+}
+
+.search input:focus {
+    border: 1px solid #1DA1F2;
+}
+
+.search button {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgb(48, 48, 48);
+    border-left: none;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    color: white;
+}
+
